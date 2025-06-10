@@ -7,9 +7,9 @@ import { cn } from "@/lib/utils";
 import { SiteHeader } from "@/components/SiteHeader";
 
 export const metadata = {
-  title: "FlowchartAI",
+  title: "NOVA.AI",
   description:
-    "Draw flowchart, sequence diagram, class diagram, user journey, gantt, C4C diagram with nature language.",
+    "Draw all sorts of flowchart, sequence diagram, class diagram, user journey, gantt, C4C diagram with nature language.",
 };
 
 const fontSans = FontSans({
