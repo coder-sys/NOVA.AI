@@ -11,16 +11,11 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "FlowchartAI",
-  description: "Draw diagram with nature language.",
-  mainNav: [
-    // {
-    //   title: "Credentials",
-    //   href: "/credentials",
-    // },
-  ],
+  name: "NOVA.AI",
+  description: "Draw diagram with natural language.",
+  mainNav: [],
   links: {
-    twitter: "https://twitter.com/akhilairi",
-    github: "https://github.com/akhilsharma90/FlowchartAI",
+    twitter: "",
+    github: "",
   },
 };

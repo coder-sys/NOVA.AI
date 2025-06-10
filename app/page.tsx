@@ -92,7 +92,14 @@ export default function Home() {
   };
 
   return (
-    <main className="container flex-1 w-full flex flex-wrap">
+    <main className="container flex-1 w-full flex flex-wrap flex-col">
+      <div className="w-full p-2">
+        <ChatInput
+          messageCotent={draftMessage}
+          onChange={setDraftMessage}
+          onSubmit={handleSubmit}
+        />
+      </div>
       <div className="flex border md:border-r-0 flex-col justify-between w-full md:w-1/2">
         <div className="">
           <div className="">
@@ -102,13 +109,6 @@ export default function Home() {
               );
             })}
           </div>
-        </div>
-        <div className="w-full p-2">
-          <ChatInput
-            messageCotent={draftMessage}
-            onChange={setDraftMessage}
-            onSubmit={handleSubmit}
-          />
         </div>
       </div>
       <div className="border w-full md:w-1/2 p-2 flex flex-col">
